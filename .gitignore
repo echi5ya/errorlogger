@@ -1,0 +1,6 @@
+*.pyc
+.DS_Store
+tests/error.txt
+tests/error.db
+
+

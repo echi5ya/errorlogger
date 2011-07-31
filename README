@@ -1,0 +1,30 @@
+errorlogger
+===========
+
+Dump error message in `with` statement to file or sqlite.
+
+
+Usage
+-----
+
+    from errorlogger import ErrorLogger
+    
+    # dump to file
+    with ErrorLogger('log.txt'):
+        do_something()
+
+    # dump to sqlite    
+    with ErrorLogger('log.db', 'sqlite'):
+        do_something()
+
+
+License
+-------
+
+MIT License
+
+
+Author
+------
+
+echi5ya  <echi5ya@gmail.com>
